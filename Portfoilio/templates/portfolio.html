@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% block main %}
+
+<div style="margin-top: 1em" id="portfolio">
+    <h1>Here are some projects I haven't disavowed yet.</h1>
+
+    <section id="projects">
+
+        <div id="toils" class="project">
+            <h2>Toils</h2>
+            <p>
+                <svg class="icon">
+                    <use xlink:href="#icon-info"></use>
+                </svg>
+                A CRUD-style application for logging work time and sending invoices
+            </p>
+
+            <p>
+                <svg class="icon">
+                    <use xlink:href="#icon-keyboard"></use>
+                </svg>
+                Laravel, Vue, Podman
+            </p>
+            <p>
+
+                <svg class="icon icon-git">
+                    <use xlink:href="#icon-git"></use>
+                </svg>
+                <a href="/goto/toils" ref="noopener noreferrer external" target="_blank">
+                    view on GitHub
+                </a>
+            </p>
+
+        </div>
+
+
+    </section>
+</div>
+
+{% endblock %}

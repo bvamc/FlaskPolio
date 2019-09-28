@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vamsidhar Bada</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/0fd6883fa0.js" crossorigin="anonymous"></script>
+    <link href="/static/css/master.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="page-container">
+        <div id="page-wrapper">
+            <header id="masthead" class="clearfix">
+                <a id="masthead-name" href="/">Vamsidhar Bada</a>
+
+                <nav id="main-nav">
+                    <ul>
+                        <li>
+                            <a href="/resume">Resume</a>
+                        </li>
+                        <!-- <li>
+                            <a href="/projects">Projects</a>
+                        </li> -->
+                        <li>
+                            <a href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            
+            {% block main %}{% endblock %}
+        </div>
+        <footer id="site-footer">
+
+            <p>
+                Gainesville, FL, United States
+            </p>
+        </footer>
+    </div>
+
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/ilovett.js"></script>
+
+</body>
+
+</html>
